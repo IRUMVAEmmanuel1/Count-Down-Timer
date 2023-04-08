@@ -15,17 +15,23 @@ html {
 }
 
 .main-container {
-	width: 100;
+	width: 100%;
+	height: 300px;
 	background-color: orange;
 }
 
 .circle-container {
-	width: 400px;
-	height: 400px;
+	width: 250px;
+	height: 250px;
 	background-color: white;
 	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
+	position: absolute;
+	z-index: 1;
 }
+
+.semicircle {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
