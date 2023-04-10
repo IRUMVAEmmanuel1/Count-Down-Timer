@@ -37,6 +37,24 @@ html {
 	left: 0;
 }
 
-.semicircle:nth-child(1){
-    background-color: red;
+.semicircle:nth-child(1) {
+	background-color: red;
+	z-index: 2;
+}
+.semicircle:nth-child(2) {
+	background-color: blue;
+	z-index: 2;
+}
+.semicircle:nth-child(3) {
+	background-color: white;
+	z-index: 4;
+	display: none;
+}
+
+.outermost-circle{
+	width: 390px;
+	height: 390x;
+	background-color: black;
+	border-radius: 50%;
+	z-index: 5;
 }
